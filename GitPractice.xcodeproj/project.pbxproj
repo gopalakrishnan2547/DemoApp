@@ -12,6 +12,8 @@
 		66FA6DE82A010A8D00F426F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FA6DE72A010A8D00F426F3 /* Assets.xcassets */; };
 		66FA6DEB2A010A8D00F426F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FA6DEA2A010A8D00F426F3 /* Preview Assets.xcassets */; };
 		7617967C2A011586001B9D2B /* CreateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7617967B2A011586001B9D2B /* CreateScreen.swift */; };
+		7617967E2A01234A001B9D2B /* CreateScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7617967D2A01234A001B9D2B /* CreateScreenVM.swift */; };
+		761796802A012358001B9D2B /* CreateScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7617967F2A012358001B9D2B /* CreateScreenModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		66FA6DE72A010A8D00F426F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66FA6DEA2A010A8D00F426F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7617967B2A011586001B9D2B /* CreateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreen.swift; sourceTree = "<group>"; };
+		7617967D2A01234A001B9D2B /* CreateScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenVM.swift; sourceTree = "<group>"; };
+		7617967F2A012358001B9D2B /* CreateScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 			children = (
 				7617967A2A011570001B9D2B /* Design */,
 				7617967B2A011586001B9D2B /* CreateScreen.swift */,
+				7617967D2A01234A001B9D2B /* CreateScreenVM.swift */,
+				7617967F2A012358001B9D2B /* CreateScreenModel.swift */,
 			);
 			path = CreateScreen;
 			sourceTree = "<group>";
@@ -204,8 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761796802A012358001B9D2B /* CreateScreenModel.swift in Sources */,
 				1607742B2A0110E8008EEC87 /* HomeScreen.swift in Sources */,
 				7617967C2A011586001B9D2B /* CreateScreen.swift in Sources */,
+				7617967E2A01234A001B9D2B /* CreateScreenVM.swift in Sources */,
 				66FA6DE42A010A8C00F426F3 /* GitPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
