@@ -13,10 +13,11 @@
 		16168E072A0117FB00DFEDFA /* RetriveScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16168E062A0117FB00DFEDFA /* RetriveScreen.swift */; };
 		16168E092A011BBA00DFEDFA /* RetriveScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16168E082A011BBA00DFEDFA /* RetriveScreenModel.swift */; };
 		16168E0B2A011BC900DFEDFA /* RetriveScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16168E0A2A011BC900DFEDFA /* RetriveScreenVM.swift */; };
+		168D229A2A0121DE005AD3F9 /* CreateScreen in Resources */ = {isa = PBXBuildFile; fileRef = 168D22982A0121DE005AD3F9 /* CreateScreen */; };
+		168D229B2A0121DE005AD3F9 /* RetriveScreen in Resources */ = {isa = PBXBuildFile; fileRef = 168D22992A0121DE005AD3F9 /* RetriveScreen */; };
 		66FA6DE42A010A8C00F426F3 /* GitPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FA6DE32A010A8C00F426F3 /* GitPracticeApp.swift */; };
 		66FA6DE82A010A8D00F426F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FA6DE72A010A8D00F426F3 /* Assets.xcassets */; };
 		66FA6DEB2A010A8D00F426F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FA6DEA2A010A8D00F426F3 /* Preview Assets.xcassets */; };
-		7617967C2A011586001B9D2B /* CreateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7617967B2A011586001B9D2B /* CreateScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +27,12 @@
 		16168E062A0117FB00DFEDFA /* RetriveScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetriveScreen.swift; sourceTree = "<group>"; };
 		16168E082A011BBA00DFEDFA /* RetriveScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetriveScreenModel.swift; sourceTree = "<group>"; };
 		16168E0A2A011BC900DFEDFA /* RetriveScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetriveScreenVM.swift; sourceTree = "<group>"; };
+		168D22982A0121DE005AD3F9 /* CreateScreen */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CreateScreen; path = GitPractice/Pages/CreateScreen; sourceTree = SOURCE_ROOT; };
+		168D22992A0121DE005AD3F9 /* RetriveScreen */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RetriveScreen; path = GitPractice/Pages/RetriveScreen; sourceTree = SOURCE_ROOT; };
 		66FA6DE02A010A8C00F426F3 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FA6DE32A010A8C00F426F3 /* GitPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeApp.swift; sourceTree = "<group>"; };
 		66FA6DE72A010A8D00F426F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66FA6DEA2A010A8D00F426F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7617967B2A011586001B9D2B /* CreateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,8 @@
 		160774282A0110B8008EEC87 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				168D22982A0121DE005AD3F9 /* CreateScreen */,
+				168D22992A0121DE005AD3F9 /* RetriveScreen */,
 				160774292A0110CB008EEC87 /* Design */,
 				1607742A2A0110E8008EEC87 /* HomeScreen.swift */,
 				46E1F49C2A011763009D3719 /* HomeScreenVM.swift */,
@@ -85,24 +89,6 @@
 			sourceTree = "<group>";
 		};
 		160774292A0110CB008EEC87 /* Design */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Design;
-			sourceTree = "<group>";
-		};
-		16168E042A0117CA00DFEDFA /* RetriveScreen */ = {
-			isa = PBXGroup;
-			children = (
-				16168E052A0117E000DFEDFA /* Design */,
-				16168E062A0117FB00DFEDFA /* RetriveScreen.swift */,
-				16168E082A011BBA00DFEDFA /* RetriveScreenModel.swift */,
-				16168E0A2A011BC900DFEDFA /* RetriveScreenVM.swift */,
-			);
-			path = RetriveScreen;
-			sourceTree = "<group>";
-		};
-		16168E052A0117E000DFEDFA /* Design */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -145,22 +131,6 @@
 				66FA6DEA2A010A8D00F426F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		761796792A011553001B9D2B /* CreateScreen */ = {
-			isa = PBXGroup;
-			children = (
-				7617967A2A011570001B9D2B /* Design */,
-				7617967B2A011586001B9D2B /* CreateScreen.swift */,
-			);
-			path = CreateScreen;
-			sourceTree = "<group>";
-		};
-		7617967A2A011570001B9D2B /* Design */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66FA6DEB2A010A8D00F426F3 /* Preview Assets.xcassets in Resources */,
+				168D229A2A0121DE005AD3F9 /* CreateScreen in Resources */,
+				168D229B2A0121DE005AD3F9 /* RetriveScreen in Resources */,
 				66FA6DE82A010A8D00F426F3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +211,6 @@
 				66FA6DE42A010A8C00F426F3 /* GitPracticeApp.swift in Sources */,
 				46E1F49B2A011754009D3719 /* HomeScreenModel.swift in Sources */,
 				66FA6DE42A010A8C00F426F3 /* GitPracticeApp.swift in Sources */,
-				16168E072A0117FB00DFEDFA /* RetriveScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
