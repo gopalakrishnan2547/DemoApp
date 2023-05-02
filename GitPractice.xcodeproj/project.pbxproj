@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1607742B2A0110E8008EEC87 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1607742A2A0110E8008EEC87 /* HomeScreen.swift */; };
 		66FA6DE42A010A8C00F426F3 /* GitPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FA6DE32A010A8C00F426F3 /* GitPracticeApp.swift */; };
-		66FA6DE62A010A8C00F426F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FA6DE52A010A8C00F426F3 /* ContentView.swift */; };
 		66FA6DE82A010A8D00F426F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FA6DE72A010A8D00F426F3 /* Assets.xcassets */; };
 		66FA6DEB2A010A8D00F426F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FA6DEA2A010A8D00F426F3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1607742A2A0110E8008EEC87 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		66FA6DE02A010A8C00F426F3 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FA6DE32A010A8C00F426F3 /* GitPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeApp.swift; sourceTree = "<group>"; };
-		66FA6DE52A010A8C00F426F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66FA6DE72A010A8D00F426F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66FA6DEA2A010A8D00F426F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +32,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		160774242A011023008EEC87 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				160774282A0110B8008EEC87 /* HomeScreen */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		160774252A011033008EEC87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		160774262A01103E008EEC87 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		160774272A011047008EEC87 /* BOs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BOs;
+			sourceTree = "<group>";
+		};
+		160774282A0110B8008EEC87 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				160774292A0110CB008EEC87 /* Design */,
+				1607742A2A0110E8008EEC87 /* HomeScreen.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		160774292A0110CB008EEC87 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
 		66FA6DD72A010A8C00F426F3 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +96,11 @@
 		66FA6DE22A010A8C00F426F3 /* GitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				160774242A011023008EEC87 /* Pages */,
+				160774252A011033008EEC87 /* Services */,
+				160774262A01103E008EEC87 /* Helpers */,
+				160774272A011047008EEC87 /* BOs */,
 				66FA6DE32A010A8C00F426F3 /* GitPracticeApp.swift */,
-				66FA6DE52A010A8C00F426F3 /* ContentView.swift */,
 				66FA6DE72A010A8D00F426F3 /* Assets.xcassets */,
 				66FA6DE92A010A8D00F426F3 /* Preview Content */,
 			);
@@ -137,7 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66FA6DE62A010A8C00F426F3 /* ContentView.swift in Sources */,
+				1607742B2A0110E8008EEC87 /* HomeScreen.swift in Sources */,
 				66FA6DE42A010A8C00F426F3 /* GitPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
