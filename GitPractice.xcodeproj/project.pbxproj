@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1607742B2A0110E8008EEC87 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1607742A2A0110E8008EEC87 /* HomeScreen.swift */; };
+		46E1F49B2A011754009D3719 /* HomeScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E1F49A2A011754009D3719 /* HomeScreenModel.swift */; };
+		46E1F49D2A011763009D3719 /* HomeScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E1F49C2A011763009D3719 /* HomeScreenVM.swift */; };
 		66FA6DE42A010A8C00F426F3 /* GitPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FA6DE32A010A8C00F426F3 /* GitPracticeApp.swift */; };
 		66FA6DE82A010A8D00F426F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FA6DE72A010A8D00F426F3 /* Assets.xcassets */; };
 		66FA6DEB2A010A8D00F426F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FA6DEA2A010A8D00F426F3 /* Preview Assets.xcassets */; };
@@ -15,6 +17,8 @@
 
 /* Begin PBXFileReference section */
 		1607742A2A0110E8008EEC87 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		46E1F49A2A011754009D3719 /* HomeScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenModel.swift; sourceTree = "<group>"; };
+		46E1F49C2A011763009D3719 /* HomeScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVM.swift; sourceTree = "<group>"; };
 		66FA6DE02A010A8C00F426F3 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FA6DE32A010A8C00F426F3 /* GitPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeApp.swift; sourceTree = "<group>"; };
 		66FA6DE72A010A8D00F426F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 			children = (
 				160774292A0110CB008EEC87 /* Design */,
 				1607742A2A0110E8008EEC87 /* HomeScreen.swift */,
+				46E1F49C2A011763009D3719 /* HomeScreenVM.swift */,
+				46E1F49A2A011754009D3719 /* HomeScreenModel.swift */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -186,7 +192,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1607742B2A0110E8008EEC87 /* HomeScreen.swift in Sources */,
+				46E1F49D2A011763009D3719 /* HomeScreenVM.swift in Sources */,
 				66FA6DE42A010A8C00F426F3 /* GitPracticeApp.swift in Sources */,
+				46E1F49B2A011754009D3719 /* HomeScreenModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
