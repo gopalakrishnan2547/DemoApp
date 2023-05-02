@@ -254,7 +254,9 @@
 				76DD4E752A016AD80073E907 /* RetriveScreenVM.swift in Sources */,
 				76DD4E742A016AD80073E907 /* RetriveScreen.swift in Sources */,
 				76DD4E6F2A016ACD0073E907 /* CreateScreen.swift in Sources */,
+				46E1F49D2A011763009D3719 /* HomeScreenVM.swift in Sources */,
 				66FA6DE42A010A8C00F426F3 /* GitPracticeApp.swift in Sources */,
+				46E1F49B2A011754009D3719 /* HomeScreenModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
