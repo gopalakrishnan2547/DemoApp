@@ -17,6 +17,8 @@
 		76DD4E732A016AD80073E907 /* RetriveScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DD4E722A016AD80073E907 /* RetriveScreenModel.swift */; };
 		76DD4E742A016AD80073E907 /* RetriveScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DD4E702A016AD70073E907 /* RetriveScreen.swift */; };
 		76DD4E752A016AD80073E907 /* RetriveScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DD4E712A016AD80073E907 /* RetriveScreenVM.swift */; };
+		66FA6DF32A01154F00F426F3 /* CreateNewsScreenTrueCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FA6DF22A01154F00F426F3 /* CreateNewsScreenTrueCase.swift */; };
+		66FA6DF52A011A6600F426F3 /* CreateNewsScreenFalseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FA6DF42A011A6600F426F3 /* CreateNewsScreenFalseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		76DD4E702A016AD70073E907 /* RetriveScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetriveScreen.swift; sourceTree = "<group>"; };
 		76DD4E712A016AD80073E907 /* RetriveScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetriveScreenVM.swift; sourceTree = "<group>"; };
 		76DD4E722A016AD80073E907 /* RetriveScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetriveScreenModel.swift; sourceTree = "<group>"; };
+		66FA6DF22A01154F00F426F3 /* CreateNewsScreenTrueCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewsScreenTrueCase.swift; sourceTree = "<group>"; };
+		66FA6DF42A011A6600F426F3 /* CreateNewsScreenFalseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewsScreenFalseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 				66FA6DF12A0114FD00F426F3 /* CreateNewsScreen */,
 				76DD4E772A016B050073E907 /* RetriveScreen */,
 				76DD4E762A016AEC0073E907 /* CreateScreen */,
+				66FA6DF12A0114FD00F426F3 /* CreateNewsScreen */,
 				160774282A0110B8008EEC87 /* HomeScreen */,
 			);
 			path = Pages;
@@ -171,6 +176,13 @@
 			children = (
 			);
 			path = Design;
+		66FA6DF12A0114FD00F426F3 /* CreateNewsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				66FA6DF22A01154F00F426F3 /* CreateNewsScreenTrueCase.swift */,
+				66FA6DF42A011A6600F426F3 /* CreateNewsScreenFalseCase.swift */,
+			);
+			path = CreateNewsScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +262,8 @@
 				76DD4E752A016AD80073E907 /* RetriveScreenVM.swift in Sources */,
 				76DD4E742A016AD80073E907 /* RetriveScreen.swift in Sources */,
 				76DD4E6F2A016ACD0073E907 /* CreateScreen.swift in Sources */,
+				66FA6DF32A01154F00F426F3 /* CreateNewsScreenTrueCase.swift in Sources */,
+				66FA6DF52A011A6600F426F3 /* CreateNewsScreenFalseCase.swift in Sources */,
 				66FA6DE42A010A8C00F426F3 /* GitPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
