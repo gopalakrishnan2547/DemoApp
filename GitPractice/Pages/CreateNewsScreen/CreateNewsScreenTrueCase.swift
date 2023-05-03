@@ -10,7 +10,7 @@ import SwiftUI
 struct CreateNewsScreenTrueCase: View {
     var body: some View {
         VStack{
-          Text("Create News d")
+          Text("Create News")
                 .font(.system(size: 25))
                 .fontWeight(.bold)
                 .padding(.bottom, 200)
